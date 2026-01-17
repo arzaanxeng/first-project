@@ -1,0 +1,17 @@
+# guess game
+# ARZAAN , 25BEE110
+
+import random                       # IMPORTING THE LIBRARY TO GENERATE A RANDOM NUMBER
+x = random.randint(0 , 100 )  # A RANDOM NUMBER THAT IS STORED IN X FROM 1 TO 99
+i = 1
+while i <= 3 :
+  a = int(input("ENTER THE DESIRED NUMBER : "))
+  if a == x :
+      print("YES , U GUESSED IT CORRECTLY !!!")
+      break
+  else:
+      print(f"NO , TRY AGAIN! ONLY {3-i} ATTEMPTS REMAINING")
+
+      i = i + 1
+print(f" THE NUMBER WAS : {x}")   # THE ACTUAL NUMBER THAT WAS STORED IN VARIABLE X 
+
