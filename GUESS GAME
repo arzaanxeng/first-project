@@ -2,8 +2,9 @@
 # ARZAAN , 25BEE110
 
 import random                       # IMPORTING THE LIBRARY TO GENERATE A RANDOM NUMBER
-x = random.randint(0 , 100 )  # A RANDOM NUMBER THAT IS STORED IN X FROM 1 TO 99
+x = random.randint(0 , 10 )  # A RANDOM NUMBER THAT IS STORED IN X FROM 0 TO 10
 i = 1
+print("-------GUESS ANY NUMBER WITHIN THE RANGE OF 0 TO 10-------")
 while i <= 3 :
   a = int(input("ENTER THE DESIRED NUMBER : "))
   if a == x :
